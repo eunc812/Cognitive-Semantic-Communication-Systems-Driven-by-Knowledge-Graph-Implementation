@@ -1,4 +1,4 @@
-#Cognitive Semantic Communication Systems Driven by Knowledge Graph Implementation
+# Cognitive Semantic Communication Systems Driven by Knowledge Graph Implementation
 - This implementation is based on the paper [Cognitive Semantic Communication Systems Driven by Knowledge Graph: Principle, Implementation, and Performance Evaluation](https://ieeexplore.ieee.org/document/10262128)
 - WebNLG download + preprocessing / alignment
 - KG→Text helpers (T5-based)
