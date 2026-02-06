@@ -1,6 +1,10 @@
-# Cognitive / Semantic Communication (KG-driven) — Repro Code
-
-Minimal, paper-reproduction-oriented codebase split from a single Colab notebook.
+#Cognitive Semantic Communication Systems Driven by Knowledge Graph Implementation
+- This implementation is based on the paper [Cognitive Semantic Communication Systems Driven by Knowledge Graph: Principle, Implementation, and Performance Evaluation](https://ieeexplore.ieee.org/document/10262128)
+- WebNLG download + preprocessing / alignment
+- KG→Text helpers (T5-based)
+- Bit accounting + baselines (bit7 / Huffman) + proposed representation coding
+- BSC channel + simple correction utilities
+- Small analysis helpers (bins / cumulative plots)
 
 ## Quickstart
 ```bash
@@ -9,19 +13,6 @@ python scripts/reproduce_colab.py --base_dir ./runs/webnlg_run
 ```
 ## Architecture
 ![Architecture](Images/architecture.jpg)
-
-## What this repo contains
-- PyTorch implementation of Cognitive Semantic Communication Systems Driven by Knowledge Graph
-- This implementation is based on the paper [Cognitive Semantic Communication Systems Driven by Knowledge Graph: Principle, Implementation, and Performance Evaluation](https://ieeexplore.ieee.org/document/10262128)
-
-
-
-- 
-- WebNLG download + preprocessing / alignment
-- KG→Text helpers (T5-based)
-- Bit accounting + baselines (bit7 / Huffman) + proposed representation coding
-- BSC channel + simple correction utilities
-- Small analysis helpers (bins / cumulative plots)
 
 ## Result
 - bits vs sentence length
