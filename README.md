@@ -19,6 +19,9 @@
 ## Evaluation
   python eval.py
 
+## Check 10 Sentences
+  python check.py
+
 ## Result
 - bits vs sentence length 
  
