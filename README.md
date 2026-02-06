@@ -8,7 +8,7 @@ pip install -r requirements.txt
 python scripts/reproduce_colab.py --base_dir ./runs/webnlg_run
 ```
 ## Architecture
-![Architecture](architecture.jpg)
+![Architecture](Images/architecture.jpg)
 
 ## What this repo contains
 - PyTorch implementation of Cognitive Semantic Communication Systems Driven by Knowledge Graph
@@ -26,19 +26,19 @@ python scripts/reproduce_colab.py --base_dir ./runs/webnlg_run
 ## Result
 - bits vs sentence length
 
-![AWGN PSNR](result_1.png)
+![AWGN PSNR](Images/result_1.png)
 
 
 - bits vs number of texts
 
-![AWGN PSNR](result_2.png)
+![AWGN PSNR](Images/result_2.png)
 
 
 - Sentence Similarity vs p
 
-![AWGN PSNR](result_3.png)
+![AWGN PSNR](Images/result_3.png)
 
 
 - BLEU vs p
 
-![AWGN PSNR](result_4.png)
+![AWGN PSNR](Images/result_4.png)
