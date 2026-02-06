@@ -1,9 +1,9 @@
 datasets
 transformers
 sentencepiece
-torch
+accelerate
 tqdm
-evaluate
-matplotlib
 sentence-transformers
+torch
 numpy
+matplotlib
