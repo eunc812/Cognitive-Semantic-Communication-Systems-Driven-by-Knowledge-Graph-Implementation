@@ -1,0 +1,9 @@
+datasets
+transformers
+sentencepiece
+torch
+tqdm
+evaluate
+matplotlib
+sentence-transformers
+numpy
