@@ -1,10 +1,6 @@
-# Cognitive Semantic Communication Systems Driven by Knowledge Graph Implementation
-- This implementation is based on the paper [Cognitive Semantic Communication Systems Driven by Knowledge Graph: Principle, Implementation, and Performance Evaluation](https://ieeexplore.ieee.org/document/10262128)
-- WebNLG download, alignment
-- T5-based KG to Text 
-- Bit accounting, baselines (bit7 / Huffman), proposed representation coding
-- BSC channel, simple correction 
-- Small analysis helpers (bins / cumulative plots)
+This repository provides a reproducible implementation of the paper 
+[Cognitive Semantic Communication Systems Driven by Knowledge Graph: Principle, Implementation, and Performance Evaluation](https://ieeexplore.ieee.org/document/10262128)
+The pipeline covers WebNLG preprocessing, T5-based KG-to-Text, bit-level baselines vs. the proposed coding, and BSC channel evaluation, and reproduces the main experimental figures in the paper.
 
 ## Architecture
 ![Architecture](Images/architecture.jpg)
