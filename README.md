@@ -14,8 +14,7 @@ python scripts/reproduce_colab.py --base_dir ./runs/webnlg_run
 - PyTorch implementation of Cognitive Semantic Communication Systems Driven by Knowledge Graph
 - This implementation is based on the paper [Cognitive Semantic Communication Systems Driven by Knowledge Graph: Principle, Implementation, and Performance Evaluation](https://ieeexplore.ieee.org/document/10262128)
 
-## Architecture
-![Architecture](architecture.jpg)
+
 
 - 
 - WebNLG download + preprocessing / alignment
@@ -25,7 +24,11 @@ python scripts/reproduce_colab.py --base_dir ./runs/webnlg_run
 - Small analysis helpers (bins / cumulative plots)
 
 ## Result
+- bits vs sentence length
 ![AWGN PSNR](result_1.png)
+- bits vs number of texts
 ![AWGN PSNR](result_2.png)
+- sentence similarity vs p
 ![AWGN PSNR](result_3.png)
+- BLEU vs p
 ![AWGN PSNR](result_4.png)
