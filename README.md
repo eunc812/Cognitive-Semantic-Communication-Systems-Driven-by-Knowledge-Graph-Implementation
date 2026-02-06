@@ -39,7 +39,7 @@ https://colab.research.google.com/drive/1a5VWUFEnRR0qWTyPuYXS-ZhchxqzV1Cu?usp=sh
 
 
 
-- Sentence Similarity vs p
+- Sentence Similarity vs p (BSC wrong)
 
 	![AWGN PSNR](Images/result_3.png)
 
@@ -48,6 +48,6 @@ https://colab.research.google.com/drive/1a5VWUFEnRR0qWTyPuYXS-ZhchxqzV1Cu?usp=sh
 
 
 
-- BLEU vs p
+- BLEU vs p (BSC wrong)
 
 	![AWGN PSNR](Images/result_4.png)
