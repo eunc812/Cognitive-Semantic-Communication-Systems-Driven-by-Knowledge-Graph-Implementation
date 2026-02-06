@@ -14,6 +14,12 @@ python scripts/reproduce_colab.py --base_dir ./runs/webnlg_run
 ## Architecture
 ![Architecture](Images/architecture.jpg)
 
+## Train
+python train.py 
+
+## Evaluation
+python eval.py
+
 ## Result
 - bits vs sentence length
 
