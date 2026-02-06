@@ -25,13 +25,17 @@ python scripts/reproduce_colab.py --base_dir ./runs/webnlg_run
 
 ## Result
 - bits vs sentence length
+
 ![AWGN PSNR](result_1.png)
 
 - bits vs number of texts
+
 ![AWGN PSNR](result_2.png)
 
 - sentence similarity vs p
+
 ![AWGN PSNR](result_3.png)
 
 - BLEU vs p
+
 ![AWGN PSNR](result_4.png)
