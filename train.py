@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/16Lqlck99CJ9mr73Qmqn2yG96z219iW4s
 """
 
-!pip -q install -U transformers sentencepiece accelerate tqdm
 
 
 import os, json, random, re, math
