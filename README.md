@@ -7,6 +7,8 @@ Minimal, paper-reproduction-oriented codebase split from a single Colab notebook
 pip install -r requirements.txt
 python scripts/reproduce_colab.py --base_dir ./runs/webnlg_run
 ```
+## Architecture
+![Architecture](architecture.jpg)
 
 ## What this repo contains
 - PyTorch implementation of Cognitive Semantic Communication Systems Driven by Knowledge Graph
@@ -21,3 +23,9 @@ python scripts/reproduce_colab.py --base_dir ./runs/webnlg_run
 - Bit accounting + baselines (bit7 / Huffman) + proposed representation coding
 - BSC channel + simple correction utilities
 - Small analysis helpers (bins / cumulative plots)
+
+## Result
+![AWGN PSNR](result_1.png)
+![AWGN PSNR](result_2.png)
+![AWGN PSNR](result_3.png)
+![AWGN PSNR](result_4.png)
