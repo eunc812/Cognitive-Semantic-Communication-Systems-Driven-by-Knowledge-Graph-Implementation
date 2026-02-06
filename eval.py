@@ -13,6 +13,16 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 BASE_DIR = "/content/webnlg_kg_text2kg_1000"
+# ----------------------------
+# Plot saving (for script mode)
+# ----------------------------
+FIG_DIR = os.path.join(BASE_DIR, "figures")
+os.makedirs(FIG_DIR, exist_ok=True)
+
+def savefig(name: str):
+    path = os.path.join(FIG_DIR, name)
+    plt.savefig(path, dpi=200, bbox_inches="tight")
+    print(f"[saved figure] {path}")
 
 PAIRS_PATH = os.path.join(BASE_DIR, "pairs_train_10016.json")
 # ✅ B/C 결과: 문장별 semantic symbol 개수(=보내는 triple 수)를 여기서 읽음
@@ -174,6 +184,7 @@ plt.grid(True, alpha=0.3)
 plt.legend()
 plt.title("Fig.4-style: bits vs sentence length (train=10016)")
 plt.tight_layout()
+savefig("fig4_bits_vs_length.png")
 plt.show()
 
 # ----------------------------
@@ -201,6 +212,7 @@ plt.grid(True, alpha=0.3)
 plt.legend()
 plt.title("Fig.5-style: cumulative bits vs number of texts (train=10016)")
 plt.tight_layout()
+savefig("fig5_cumulative_bits.png")
 plt.show()
 
 # ----------------------------
@@ -617,6 +629,7 @@ plt.grid(True, alpha=0.3)
 plt.legend()
 plt.title("Fig.6-style: Semantic similarity vs p (train=10016)")
 plt.tight_layout()
+savefig("fig6_similarity_vs_p.png")
 plt.show()
 
 # -------------------------
@@ -636,4 +649,5 @@ for i in range(4):
     if i == 1:
         ax.legend(loc="best")
 plt.tight_layout()
+savefig("fig7_bleu_vs_p.png")
 plt.show()
