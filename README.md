@@ -1,3 +1,4 @@
+# Cognitive Semantic Communication Systems Driven by Knowledge Graph Implementation
 - This repository provides a reproducible implementation of the paper [Cognitive Semantic Communication Systems Driven by Knowledge Graph: Principle, Implementation, and Performance Evaluation](https://ieeexplore.ieee.org/document/10262128)
 - The pipeline covers WebNLG preprocessing, T5-based KG-to-Text, bit-level baselines vs. the proposed coding, and BSC channel evaluation, and reproduces the main experimental figures in the paper.
 
