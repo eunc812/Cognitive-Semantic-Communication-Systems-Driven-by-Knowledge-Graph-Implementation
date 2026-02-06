@@ -226,7 +226,6 @@ zero_ours = sum(1 for r in rows if r["ours_bcc"] == 0)
 print("\n=== Health check ===")
 print(f"ours_bcc==0: {zero_ours}/{len(rows)} ({100*zero_ours/len(rows):.2f}%)")
 
-!pip -q install -U sentence-transformers
 
 import os, json, random, math, re
 import numpy as np
