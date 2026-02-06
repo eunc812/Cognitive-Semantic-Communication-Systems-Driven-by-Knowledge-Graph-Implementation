@@ -18,8 +18,8 @@
   python eval.py
 
 ## Result
-- bits vs sentence length
-
+- bits vs sentence length 
+ 
   ![AWGN PSNR](Images/result_1.png)
 
 
