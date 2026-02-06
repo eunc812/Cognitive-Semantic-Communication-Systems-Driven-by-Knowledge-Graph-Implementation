@@ -6,11 +6,6 @@
 - BSC channel + simple correction utilities
 - Small analysis helpers (bins / cumulative plots)
 
-## Quickstart
-```bash
-pip install -r requirements.txt
-python scripts/reproduce_colab.py --base_dir ./runs/webnlg_run
-```
 ## Architecture
 ![Architecture](Images/architecture.jpg)
 
