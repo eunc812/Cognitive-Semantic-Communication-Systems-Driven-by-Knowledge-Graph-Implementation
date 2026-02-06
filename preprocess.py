@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1QeJ3OpW_C962qPP5zfgTsOLGn0qNtJ2Z
 """
 
-pip -q install -U datasets transformers sentencepiece
+!pip -q install -U datasets transformers sentencepiece
 
 import os, json, random, re, math
 from collections import Counter, defaultdict
