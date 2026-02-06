@@ -14,6 +14,12 @@ python scripts/reproduce_colab.py --base_dir ./runs/webnlg_run
 ## Architecture
 ![Architecture](Images/architecture.jpg)
 
+## Preprocess
+python preprocess.py
+
+## Channel
+python channel.py
+
 ## Train
 python train.py 
 
