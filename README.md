@@ -6,7 +6,7 @@
 https://colab.research.google.com/drive/1a5VWUFEnRR0qWTyPuYXS-ZhchxqzV1Cu?usp=sharing
 )
 ## Architecture
-  ![Architecture](Images/architecture.jpg)
+  ![Architecture](Images/architecture.png)
 
 ## Preprocess
   python preprocess.py
