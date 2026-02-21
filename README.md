@@ -1,5 +1,6 @@
 ## Cognitive Semantic Communication Systems Driven by Knowledge Graph
 
++ Knowledge Graph based cognitive semantic communication system implementation 
 + This repository provides a implementation of the paper: [Cognitive Semantic Communication Systems Driven by Knowledge Graph](https://arxiv.org/abs/2202.11958)
 + The repository covers WebNLG aligning, Knowledge Base error correction, T5 finetuning, T5 based KG-to-Text, and the main experimental figures in the paper.
 + [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
